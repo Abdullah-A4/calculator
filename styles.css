@@ -1,0 +1,70 @@
+html {
+  display: flex;
+  justify-content: center;
+  background-color: #2e2e2e;
+  font-family: 'Oswald', sans-serif, 'Times New Roman', Times, serif;
+}
+
+.outline {
+  margin-top: 150px;
+  padding: 15px;
+  background-color: #000000;
+  width: 100%;
+  border: 3px solid lightgreen;
+}
+
+#screen {
+  box-sizing: border-box;
+  width: 270px;
+  height: 50px;
+  margin: 5px;
+  border: 3px solid lightgreen;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column-reverse;
+  padding: 5px;
+  background-color: grey;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 900;
+  font-size: 30px;
+  text-align: right
+}
+
+.values {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  width: 280px;
+  height: 300px;
+}
+
+.column button {
+  display: flex;
+  margin: 10px;
+}
+
+button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  background-color: lightgreen;
+}
+
+.heading {
+  color: lightgreen;
+  font-size: 50px;
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
+}
+
+.Credits {
+  color: lightgreen;
+  font-size: 24px;
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
+}
